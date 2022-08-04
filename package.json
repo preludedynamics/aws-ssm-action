@@ -1,0 +1,26 @@
+{
+  "name": "aws-ssm-action",
+  "version": "1.0.0",
+  "description": "Github Actions for executing AWS SSM command and getting the result",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preludedynamics/aws-ssm-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/preludedynamics/aws-ssm-action#readme",
+  "dependencies": {
+    "@actions/core": "1.2.7",
+    "@actions/github": "4.0.0",
+    "aws-sdk": "2.892.0",
+    "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "4.2.4"
+  }
+}
