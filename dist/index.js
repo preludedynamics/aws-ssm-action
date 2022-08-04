@@ -27,7 +27,6 @@ const core = __importStar(require("@actions/core"));
 try {
     const inputs = parseInputs();
     core.setCommandEcho(true);
-    // AWS Configure
     aws_sdk_1.default.config.update({
         accessKeyId: inputs.accessKeyId,
         secretAccessKey: inputs.secretAccessKey,
