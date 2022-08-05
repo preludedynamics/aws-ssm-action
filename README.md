@@ -3,6 +3,9 @@
 Documentation for AWS SSM: \
 https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SSM.html
 
+**To apply changes run 'npm run build' command and commit all changes after that**
+**Also check version you use in pipeline. Maybe you need to release new version of action**
+
 This action can send command to ec2 instance and get result
 
 ## Contents
