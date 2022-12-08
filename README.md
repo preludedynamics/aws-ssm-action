@@ -159,3 +159,4 @@ Please, check the requirements for IAM user role
 ### InvalidInstanceId: null
 
 Please, check the requirements for EC2 IAM permissions
+
